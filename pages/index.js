@@ -58,6 +58,7 @@ export default function Home(props) {
 
                 <CardActions>
                   <Typography>${product.price}</Typography>
+
                   <Button
                     size="small"
                     color="primary"

@@ -118,8 +118,8 @@ export default function Layout({ title, description, children }) {
               {userInfo ? (
                 <>
                   <Button
-                    aria-aria-controls="simple-menu"
-                    aria-aria-haspopup="true"
+                    aria-controls="simple-menu"
+                    aria-haspopup="true"
                     onClick={loginClickHandler}
                     className={classes.navbarButton}
                   >
